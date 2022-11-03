@@ -1,0 +1,70 @@
+footer {
+    margin-top: 70px;
+  }
+  
+  .pie-pagina {
+    width: 100%;
+    background-color: $background-header-footer;
+  
+    .grupo-1 {
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+  
+      .box {
+        figure {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img {
+            width: 250px;
+          }
+        }
+  
+        h2 {
+          color: white;
+          margin-bottom: 25px;
+          font-size: 20px;
+        }
+      }
+  
+      p {
+        color: #efefef;
+        margin-bottom: 10px;
+      }
+  
+      .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #F2CED0;
+        text-align: center;
+        transition: all 300ms ease;
+  
+        &:hover {
+          color: #F29BAB;
+        }
+      }
+    }
+  
+    .grupo-2 {
+      background-color: #0a1a2a;
+      padding: 15px 10px;
+      text-align: center;
+      color: #fff;
+  
+      small {
+        font-size: 15px;
+      }
+    }
+  }

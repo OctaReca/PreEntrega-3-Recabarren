@@ -1,0 +1,24 @@
+.img-measurements {
+  @include props-flex(center,center);
+  }
+  
+  .form-measurements {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .boton-measurements {
+    background-color: #F2CED0;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+  }

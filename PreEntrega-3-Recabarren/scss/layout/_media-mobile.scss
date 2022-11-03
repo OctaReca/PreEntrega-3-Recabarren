@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+    .h1 {
+      padding-top: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    .h2 {
+      font-size: 18px;
+    }
+  
+    .texto {
+      font-size: 15px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .logo {
+      width: 50px;
+      cursor: pointer;
+    }
+  
+    .nav-bar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  
+      ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 7px;
+        position: relative;
+  
+        a {
+          text-decoration: none;
+          color: #583E3D;
+          font-family: 'Roboto', sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+  }
